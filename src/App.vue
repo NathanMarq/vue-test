@@ -29,3 +29,15 @@
   }
 }
 </style>
+
+<script>
+import thing from './components/thing/thing.vue';
+import FuckYou from './components/FuckYou.vue';
+
+export default {
+  name: 'App',
+  components: {
+    FuckYou,
+  },
+};
+</script>
